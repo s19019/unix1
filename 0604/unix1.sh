@@ -14,7 +14,7 @@ do
     case "$select" in
         #git add -1 選択
         1)
-            git add -1
+            git add -i
             git status
             ;;
         #git commit 選択

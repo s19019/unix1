@@ -1,4 +1,4 @@
-for file in "$0"
+for file in "$@"
 do
     if [ -f "$file" ]; then
         # duでファイル容量を求める
